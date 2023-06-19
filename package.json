@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/poojajaiswal02/frontend-project/issues"
   },
-  "homepage": "https://github.com/poojajaiswal02/frontend-project#readme",
+  "homepage": "https://github.com/poojajaiswal02/frontend-project",
   "dependencies": {
     "gh-pages": "^5.0.0"
   }
