@@ -1,3 +1,9 @@
+// Unsplash api 
+let count = 5;
+const apiKey = 'D965HCX0aHlC4WYCEuQmstEsnXlPFpE6182AZUnsXyQ';
+let apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
+
+// Get the required elements
 const imageContainer = document.getElementById('image-container');
 const loader = document.getElementById('loader');
 
@@ -8,10 +14,6 @@ let totalImages = 0;
 let photosArray = [];
 
 // Unsplash api url
-let count = 5;
-// unsplash api 
-const apiKey = 'D965HCX0aHlC4WYCEuQmstEsnXlPFpE6182AZUnsXyQ';
-let apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
 // check if all images loaded
 function imageLoaded() {
@@ -44,7 +46,7 @@ function displayPhotos() {
         // create <a> to link unsplash
         const item = document.createElement('a');
         setAttributes(item, {
-            href: photo.urls.html,    // call the healper
+            href: photo.urls.regular,
             target: '_blank'
         });
 
