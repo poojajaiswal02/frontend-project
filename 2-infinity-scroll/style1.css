@@ -46,7 +46,7 @@ h1 {
 a {
   display: inline-block;
   /* float: left; */
-  width: 18%;
+  width: 31%;
   padding: 1%;
 }
 
@@ -62,5 +62,10 @@ a {
 
   .image-container {
     margin: 10px;
+  }
+
+  a {
+    width: 98%;
+    padding: 1%;
   }
 }
